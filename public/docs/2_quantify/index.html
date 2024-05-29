@@ -1,16 +1,323 @@
-<!doctype html><html lang=en-us dir=ltr><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Quantifiying the Environmental Footprint # Central Question
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Quantifiying the Environmental Footprint # Central Question
 What is the ecological Footprint of AI Applications and why do we need it?
--> To mitigate the ecological Impact of AI and this is only possible, if you can quantify the impact! Why is it important to know the footprint # Understanding the ecological impact of AI systems is crucial for effective mitigation efforts. For instance, simply replacing old hardware with new, more energy-efficient models can ironically result in a larger overall CO2 footprint when considering the emissions associated with producing new hardware and disposing of the old."><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="http://localhost:1313/docs/2_quantify/"><meta property="og:site_name" content="Green AI Model"><meta property="og:title" content="2. Quantifiying the Environmental Footprint"><meta property="og:description" content="Quantifiying the Environmental Footprint # Central Question
+-&gt; To mitigate the ecological Impact of AI and this is only possible, if you can quantify the impact! Why is it important to know the footprint # Understanding the ecological impact of AI systems is crucial for effective mitigation efforts. For instance, simply replacing old hardware with new, more energy-efficient models can ironically result in a larger overall CO2 footprint when considering the emissions associated with producing new hardware and disposing of the old.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/2_quantify/">
+  <meta property="og:site_name" content="Green AI Model">
+  <meta property="og:title" content="2. Quantifiying the Environmental Footprint">
+  <meta property="og:description" content="Quantifiying the Environmental Footprint # Central Question
 What is the ecological Footprint of AI Applications and why do we need it?
--> To mitigate the ecological Impact of AI and this is only possible, if you can quantify the impact! Why is it important to know the footprint # Understanding the ecological impact of AI systems is crucial for effective mitigation efforts. For instance, simply replacing old hardware with new, more energy-efficient models can ironically result in a larger overall CO2 footprint when considering the emissions associated with producing new hardware and disposing of the old."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="docs"><title>2. Quantifiying the Environmental Footprint | Green AI Model</title>
-<link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png><link rel=canonical href=http://localhost:1313/docs/2_quantify/><link rel=stylesheet href=/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css integrity="sha256-MJt+0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.0bc3b1b32514a89955a72df143fc1544f994e6ba8e70c2b593950985df0fe3b5.js integrity="sha256-C8OxsyUUqJlVpy3xQ/wVRPmU5rqOcMK1k5UJhd8P47U=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><span>Green AI Model</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=/docs/1_introduction/>1. Introduction</a></li><li><a href=/docs/2_quantify/ class=active>2. Quantifiying the Environmental Footprint</a></li><li><a href=/docs/3_influence_factors/>3. Influence Factors</a></li><li><a href=/docs/4_interplay/>4. Interplay of Influence Factors</a></li><li><a href=/docs/5_discussion/>5. Discussion</a></li></ul><ul><li><a href=https://github.com/Green-AI-Model/Green-AI-Model.github.io target=_blank rel=noopener>Github</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu>
-</label><strong>2. Quantifiying the Environmental Footprint</strong>
-<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><a href=#why-is-it-important-to-know-the-footprint>Why is it important to know the footprint</a></li><li><a href=#what-are-the-environmental-influences-and-sources-for-this>What are the environmental influences and sources for this?</a></li><li><a href=#but-how-do-we-measure-those-impacts>But how do we measure those impacts?</a></li><li><a href=#how-do-we-report-our-results>How do we report our results?</a></li></ul></nav></aside></header><article class="markdown book-article"><h1 id=quantifiying-the-environmental-footprint>Quantifiying the Environmental Footprint
-<a class=anchor href=#quantifiying-the-environmental-footprint>#</a></h1><p><img src=../figures/placeholder_green_ai.png alt></p><blockquote><p><strong>Central Question</strong></p><ul><li>What is the ecological Footprint of AI Applications and why do we need it?<br>-> To mitigate the ecological Impact of AI and this is only possible, if you can quantify the impact!</li></ul></blockquote><h2 id=why-is-it-important-to-know-the-footprint>Why is it important to know the footprint
-<a class=anchor href=#why-is-it-important-to-know-the-footprint>#</a></h2><p>Understanding the ecological impact of AI systems is crucial for effective mitigation efforts. For instance, simply replacing old hardware with new, more energy-efficient models can ironically result in a larger overall CO2 footprint when considering the emissions associated with producing new hardware and disposing of the old. Thus, before making optimizations, it&rsquo;s essential to fully understand the potential environmental benefits, which can only be achieved by comprehensively quantifying the entire footprint of the system.</p><h2 id=what-are-the-environmental-influences-and-sources-for-this>What are the environmental influences and sources for this?
-<a class=anchor href=#what-are-the-environmental-influences-and-sources-for-this>#</a></h2><p>Since AI-Systems are complex systems, so is their environmental influences.
-The complete footprint consist of multiple factors, first the execution on Hardware (energy consumption). Second the Infrastructure that is needed for this execution, e.g. the Data Center but also the Offices for workers. In infrastructure, emissions are mainly in the form of embodied emissions, but also water that is used to cool the servers and more. Last the Human that is tied to the development, marketing etc. of the AI-System. Life-Cycle-Assessment provides an effective framework for evaluating these emissions.</p><h2 id=but-how-do-we-measure-those-impacts>But how do we measure those impacts?
-<a class=anchor href=#but-how-do-we-measure-those-impacts>#</a></h2><p>The tricky part comes, when you try to measure those emissions. Measuring the energy-consumption of AI-Systems can be done in several ways, with both benefits and downsides. The most accurate would be to measure the energy-consumption with a power-meter. But sometimes you do not have Access to the machine or a capable power meter. Then the energy-consumption could be estimated by softwaretools, such as RAPL or NVIDI-SMI, wich is more accessible and easier to use but not as accurate. Last, if you do not have Hardware that supports those Tools, you could estimate the energy-consumption by taking the time and utilisation of the system and combining it with the TDP of the system. Even this is impossible if you are on a public cloud and do not know the TDP of your system. Depending in the hardware used, there a other ressources that need to be measured. E.g. for Data Center with water-cooling, the water consumption plays an important role as well.
-No matter where the AI-System runs, it requires Hardware that comes with a CO2 footprint for its production and transport to the execution location. This is something that can&rsquo;t be measured. There you have to relay on estimations, if any exist. But even after use, the hardware could produce significant environmental impacts, since it has to be disposed or in best case recycled or reused.</p><h2 id=how-do-we-report-our-results>How do we report our results?
-<a class=anchor href=#how-do-we-report-our-results>#</a></h2><p>After measuring your System, you need to Report the numbers. Here it is very important to report the right number to the right audience. For example reporting the CO2 Footprint of a trained model to the public would be a good choice if other models to do the same. That way customers could choose the more environmently friendly model. But for a scientific audience this might be not enough. Maybe they want to compare your Architecture with theirs. Then they also need to know on what Hardware and how much energy it requires.</p></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><a href=#why-is-it-important-to-know-the-footprint>Why is it important to know the footprint</a></li><li><a href=#what-are-the-environmental-influences-and-sources-for-this>What are the environmental influences and sources for this?</a></li><li><a href=#but-how-do-we-measure-those-impacts>But how do we measure those impacts?</a></li><li><a href=#how-do-we-report-our-results>How do we report our results?</a></li></ul></nav></div></aside></main></body></html>
+-&gt; To mitigate the ecological Impact of AI and this is only possible, if you can quantify the impact! Why is it important to know the footprint # Understanding the ecological impact of AI systems is crucial for effective mitigation efforts. For instance, simply replacing old hardware with new, more energy-efficient models can ironically result in a larger overall CO2 footprint when considering the emissions associated with producing new hardware and disposing of the old.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>2. Quantifiying the Environmental Footprint | Green AI Model</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/docs/2_quantify/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.41582bf87e564b9712ac4623389490363ea71cb279f1ff64b09c94b19bcd512a.js" integrity="sha256-QVgr&#43;H5WS5cSrEYjOJSQNj6nHLJ58f9ksJyUsZvNUSo=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Green AI Model</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/1_introduction/" class="">1. Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/2_quantify/" class="active">2. Quantifiying the Environmental Footprint</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/3_influence_factors/" class="">3. Influence Factors</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/4_interplay/" class="">4. Interplay of Influence Factors</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/5_discussion/" class="">5. Discussion</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/Green-AI-Model/Green-AI-Model.github.io"  target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>2. Quantifiying the Environmental Footprint</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-is-it-important-to-know-the-footprint">Why is it important to know the footprint</a></li>
+    <li><a href="#what-are-the-environmental-influences-and-sources-for-this">What are the environmental influences and sources for this?</a></li>
+    <li><a href="#but-how-do-we-measure-those-impacts">But how do we measure those impacts?</a></li>
+    <li><a href="#how-do-we-report-our-results">How do we report our results?</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="quantifiying-the-environmental-footprint">
+  Quantifiying the Environmental Footprint
+  <a class="anchor" href="#quantifiying-the-environmental-footprint">#</a>
+</h1>
+<p><img src="../figures/placeholder_green_ai.png" alt="" /></p>
+<blockquote>
+<p><strong>Central Question</strong></p>
+<ul>
+<li>What is the ecological Footprint of AI Applications and why do we need it?<br>
+-&gt; To mitigate the ecological Impact of AI and this is only possible, if you can quantify the impact!</li>
+</ul>
+</blockquote>
+<h2 id="why-is-it-important-to-know-the-footprint">
+  Why is it important to know the footprint
+  <a class="anchor" href="#why-is-it-important-to-know-the-footprint">#</a>
+</h2>
+<p>Understanding the ecological impact of AI systems is crucial for effective mitigation efforts. For instance, simply replacing old hardware with new, more energy-efficient models can ironically result in a larger overall CO2 footprint when considering the emissions associated with producing new hardware and disposing of the old. Thus, before making optimizations, it&rsquo;s essential to fully understand the potential environmental benefits, which can only be achieved by comprehensively quantifying the entire footprint of the system.</p>
+<h2 id="what-are-the-environmental-influences-and-sources-for-this">
+  What are the environmental influences and sources for this?
+  <a class="anchor" href="#what-are-the-environmental-influences-and-sources-for-this">#</a>
+</h2>
+<p>Since AI-Systems are complex systems, so is their environmental influences.
+The complete footprint consist of multiple factors, first the execution on Hardware (energy consumption). Second the Infrastructure that is needed for this execution, e.g. the Data Center but also the Offices for workers. In infrastructure, emissions are mainly in the form of embodied emissions, but also water that is used to cool the servers and more. Last the Human that is tied to the development, marketing etc. of the AI-System. Life-Cycle-Assessment provides an effective framework for evaluating these emissions.</p>
+<h2 id="but-how-do-we-measure-those-impacts">
+  But how do we measure those impacts?
+  <a class="anchor" href="#but-how-do-we-measure-those-impacts">#</a>
+</h2>
+<p>The tricky part comes, when you try to measure those emissions. Measuring the energy-consumption of AI-Systems can be done in several ways, with both benefits and downsides. The most accurate would be to measure the energy-consumption with a power-meter. But sometimes you do not have Access to the machine or a capable power meter. Then the energy-consumption could be estimated by softwaretools, such as RAPL or NVIDI-SMI, wich is more accessible and easier to use but not as accurate.  Last, if you do not have Hardware that supports those Tools, you could estimate the energy-consumption by taking the time and utilisation of the system and combining it with the TDP of the system. Even this is impossible if you are on a public cloud and do not know the TDP of your system. Depending in the hardware used, there a other ressources that need to be measured. E.g. for Data Center with water-cooling, the water consumption plays an important role as well.
+No matter where the AI-System runs, it requires Hardware that comes with a CO2 footprint for its production and transport to the execution location. This is something that can&rsquo;t be measured. There you have to relay on estimations, if any exist. But even after use, the hardware could produce significant environmental impacts, since it has to be disposed or in best case recycled or reused.</p>
+<h2 id="how-do-we-report-our-results">
+  How do we report our results?
+  <a class="anchor" href="#how-do-we-report-our-results">#</a>
+</h2>
+<p>After measuring your System, you need to Report the numbers. Here it is very important to report the right number to the right audience. For example reporting the CO2 Footprint of a trained model to the public would be a good choice if other models to do the same. That way customers could choose the more environmently friendly model. But for a scientific audience this might be not enough. Maybe they want to compare your Architecture with theirs. Then they also need to know on what Hardware and how much energy it requires.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-is-it-important-to-know-the-footprint">Why is it important to know the footprint</a></li>
+    <li><a href="#what-are-the-environmental-influences-and-sources-for-this">What are the environmental influences and sources for this?</a></li>
+    <li><a href="#but-how-do-we-measure-those-impacts">But how do we measure those impacts?</a></li>
+    <li><a href="#how-do-we-report-our-results">How do we report our results?</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

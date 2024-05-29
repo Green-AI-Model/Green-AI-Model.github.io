@@ -1,7 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Green AI Model</title><link>http://localhost:1313/</link><description>Recent content in Introduction on Green AI Model</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>1. Introduction</title><link>http://localhost:1313/docs/1_introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/1_introduction/</guid><description>Introduction # The Green AI Reference Model presents a comprehensive framework aimed at guiding stakeholders across the AI lifecycle to enhance the sustainability of AI systems. This model is pivotal in advancing the dual objectives of Green AI: mitigating climate change and minimizing environmental impacts. It achieves this through two principal approaches: &amp;ldquo;Green by AI&amp;rdquo; and &amp;ldquo;Green in AI.&amp;rdquo;
-&amp;ldquo;Green by AI&amp;rdquo; refers to leveraging AI technologies to foster environmental sustainability, such as optimizing energy use or enhancing waste management.</description></item><item><title>2. Quantifiying the Environmental Footprint</title><link>http://localhost:1313/docs/2_quantify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/2_quantify/</guid><description>Quantifiying the Environmental Footprint # Central Question
-What is the ecological Footprint of AI Applications and why do we need it?
--&amp;gt; To mitigate the ecological Impact of AI and this is only possible, if you can quantify the impact! Why is it important to know the footprint # Understanding the ecological impact of AI systems is crucial for effective mitigation efforts. For instance, simply replacing old hardware with new, more energy-efficient models can ironically result in a larger overall CO2 footprint when considering the emissions associated with producing new hardware and disposing of the old.</description></item><item><title>3. Influence Factors</title><link>http://localhost:1313/docs/3_influence_factors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/3_influence_factors/</guid><description>Influence Factros # Central Question
-What are the influence Factors, and how do they effect the ecological Footprint of AI? The following section presents impact factors organized into five primary Categories (UseCase. Impact factors in an AI system refer to specific components or areas within the system that can significantly contribute to its environmental impact. These factors can include, but are not limited to, energy consumption of data centers, carbon footprint of hardware production, resource utilization during operation, and the ecological effects of disposing electronic waste.</description></item><item><title>4. Interplay of Influence Factors</title><link>http://localhost:1313/docs/4_interplay/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/4_interplay/</guid><description>Interplay of Influence Factors # Central Question
-How do the different Influence Factors interact with each other? And why does it matters? What scientific Question result from this? Interplay Between Influence Factors # Understanding the interplay between various influence factors is crucial for optimizing the ecological sustainability of AI systems. These factors, categorized into Use Case, Model, Data, Hardware, and Tools, do not operate in isolation. Instead, they interact in complex ways that can either amplify or mitigate their individual impacts on the environmental footprint of AI applications.</description></item><item><title>5. Discussion</title><link>http://localhost:1313/docs/5_discussion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/5_discussion/</guid><description>Discussion # The Green AI Reference Model sets forth a promising framework for reducing the environmental impact of AI technologies. However, its successful implementation faces several complex challenges that require careful consideration and strategic solutions:
-Scalability and Practicality # One of the primary challenges is ensuring that the principles of the Green AI Reference Model are scalable and practical across various industries and applications. AI technologies vary widely in terms of their purpose, complexity, and the environments in which they operate.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Green AI Model</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Introduction on Green AI Model</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Introduction</title>
+      <link>http://localhost:1313/docs/1_introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/1_introduction/</guid>
+      <description>Introduction # The Green AI Reference Model presents a comprehensive framework aimed at guiding stakeholders across the AI lifecycle to enhance the sustainability of AI systems. This model is pivotal in advancing the dual objectives of Green AI: mitigating climate change and minimizing environmental impacts. It achieves this through two principal approaches: &amp;ldquo;Green by AI&amp;rdquo; and &amp;ldquo;Green in AI.&amp;rdquo;&#xA;&amp;ldquo;Green by AI&amp;rdquo; refers to leveraging AI technologies to foster environmental sustainability, such as optimizing energy use or enhancing waste management.</description>
+    </item>
+    <item>
+      <title>2. Quantifiying the Environmental Footprint</title>
+      <link>http://localhost:1313/docs/2_quantify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/2_quantify/</guid>
+      <description>Quantifiying the Environmental Footprint # Central Question&#xA;What is the ecological Footprint of AI Applications and why do we need it?&#xA;-&amp;gt; To mitigate the ecological Impact of AI and this is only possible, if you can quantify the impact! Why is it important to know the footprint # Understanding the ecological impact of AI systems is crucial for effective mitigation efforts. For instance, simply replacing old hardware with new, more energy-efficient models can ironically result in a larger overall CO2 footprint when considering the emissions associated with producing new hardware and disposing of the old.</description>
+    </item>
+    <item>
+      <title>3. Influence Factors</title>
+      <link>http://localhost:1313/docs/3_influence_factors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/3_influence_factors/</guid>
+      <description>Influence Factros # Central Question&#xA;What are the influence Factors, and how do they effect the ecological Footprint of AI? The following section presents impact factors organized into five primary Categories (UseCase. Impact factors in an AI system refer to specific components or areas within the system that can significantly contribute to its environmental impact. These factors can include, but are not limited to, energy consumption of data centers, carbon footprint of hardware production, resource utilization during operation, and the ecological effects of disposing electronic waste.</description>
+    </item>
+    <item>
+      <title>4. Interplay of Influence Factors</title>
+      <link>http://localhost:1313/docs/4_interplay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/4_interplay/</guid>
+      <description>Interplay of Influence Factors # Central Question&#xA;How do the different Influence Factors interact with each other? And why does it matters? What scientific Question result from this? Interplay Between Influence Factors # Understanding the interplay between various influence factors is crucial for optimizing the ecological sustainability of AI systems. These factors, categorized into Use Case, Model, Data, Hardware, and Tools, do not operate in isolation. Instead, they interact in complex ways that can either amplify or mitigate their individual impacts on the environmental footprint of AI applications.</description>
+    </item>
+    <item>
+      <title>5. Discussion</title>
+      <link>http://localhost:1313/docs/5_discussion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/5_discussion/</guid>
+      <description>Discussion # The Green AI Reference Model sets forth a promising framework for reducing the environmental impact of AI technologies. However, its successful implementation faces several complex challenges that require careful consideration and strategic solutions:&#xA;Scalability and Practicality # One of the primary challenges is ensuring that the principles of the Green AI Reference Model are scalable and practical across various industries and applications. AI technologies vary widely in terms of their purpose, complexity, and the environments in which they operate.</description>
+    </item>
+  </channel>
+</rss>

@@ -9,6 +9,6 @@ The demand for resources driven by Artificial Intelligence continues to surge, w
 
 - [Introduction](../docs/1_introduction)
 - [Quantifiying the Environmental Footprint](../docs/2_quantify)
-- [Influence Factros](../docs/3_influence_factors)
+- [Influence Factors](../docs/3_influence_factors)
 - [Interplay of Influence Factors](../docs/4_interplay)
 - [Discussion](../docs/5_discussion)

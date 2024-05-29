@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>http://localhost:1313/docs/1_introduction/</loc></url><url><loc>http://localhost:1313/docs/2_quantify/</loc></url><url><loc>http://localhost:1313/docs/3_influence_factors/</loc></url><url><loc>http://localhost:1313/docs/4_interplay/</loc></url><url><loc>http://localhost:1313/docs/5_discussion/</loc></url><url><loc>http://localhost:1313/categories/</loc></url><url><loc>http://localhost:1313/docs/</loc></url><url><loc>http://localhost:1313/</loc></url><url><loc>http://localhost:1313/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/docs/1_introduction/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/2_quantify/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/3_influence_factors/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/4_interplay/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/5_discussion/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

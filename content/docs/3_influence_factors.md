@@ -2,7 +2,7 @@
 title = '3. Influence Factors'
 weight = 3
 +++
-# Influence Factros
+# Influence Factors
 
 ![](../figures/placeholder_green_ai_impact_factors.png)
 
