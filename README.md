@@ -5,3 +5,10 @@
 
 # How to edit
 Files can be found here: /content/docs
+
+# Usefull Hugo commands
+
+```bash
+hugo server --minify
+hugo mode clean #Cleans cache
+```
