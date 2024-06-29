@@ -12,3 +12,6 @@ Files can be found here: /content/docs
 hugo server --minify
 hugo mode clean #Cleans cache
 ```
+
+# Next Step
+- This version will contain references and research gaps.
