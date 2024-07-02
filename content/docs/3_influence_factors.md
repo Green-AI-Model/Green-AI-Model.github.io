@@ -34,6 +34,8 @@ After the training phase, the **inference** process becomes a critical aspect of
 
 The initial energy consumption of training far exceeds that of a single inference. However, inference typically occurs much more frequently than training. To identify the greatest potential for energy savings, it is necessary to consider various factors such as the use case (e.g., the frequency of model execution), the hardware (e.g., whether the inference is executed on energy-efficient specialized hardware), and other relevant factors. The complexities of these considerations are further discussed in Section 4.
 
+- Energy demand LLMs https://ml.energy/leaderboard
+
 ## Data
 
 In AI systems, the data utilized plays a significant role, influencing both the system's effectiveness and its environmental footprint. The key factors under the "Data" category include Data Size, Data Selection, and Data Collection, each impacting energy consumption differently.
@@ -67,6 +69,7 @@ In the realm of AI development and deployment, selecting the right tools is cruc
 AI developers have access to a variety of **frameworks** that can affect the efficiency and environmental impact of their projects. Popular frameworks such as TensorFlow, PyTorch, and Keras offer different capabilities in terms of ease of use, flexibility, and performance. Each framework also differs in how well it manages resource utilization, which can significantly impact energy consumption during model training and inference.
 
 Adopting practices that enhance **energy and resource awareness** can substantially decrease the environmental footprint of AI systems. For example, scheduling training sessions during off-peak hours when there is less demand on the power grid can lead to the use of more renewable energy sources and lower carbon emissions. This approach not only optimizes energy usage but also potentially reduces costs.
+- Current Energy-Mix CO2 cost: https://app.electricitymaps.com/zone/DE
 
 The **methodologies** used during the development process, such as Scrum and Agile, can also influence the environmental impact of AI applications. These methodologies promote iterative development, continuous feedback, and adaptability. By enabling more efficient project management and quicker identification of issues, these approaches can minimize wasted effort and resources, thereby reducing the environmental footprint of the development process.
 
