@@ -8,7 +8,8 @@ weight = 1
 
 The Green AI Reference Model presents a comprehensive framework that is intended to serve as a guide for stakeholders across the AI life cycle, with the objective of enhancing the sustainability of AI systems. This model is pivotal in advancing the dual objectives of Green AI: mitigating climate change and minimizing environmental impacts. The model achieves this through two principal approaches: "Green **by** AI" and "Green **in** AI."
 
-"Green by AI" refers to leveraging AI technologies to foster environmental sustainability, such as the optimization of energy use or the enhancement of waste management. Conversely, "Green in AI" emphasizes the development and implementation of AI solutions that themselves consume fewer resources and generate less waste. The Green AI Reference Model, in particular, aims to significantly reduce carbon dioxide equivalent (CO<sub>2</sub>e) emissions and conserve critical resources, including water, rare earth elements (REE), and others.  
+"Green by AI" refers to leveraging AI technologies to foster environmental sustainability, such as the optimization of energy use or the enhancement of waste management. Conversely, "Green in AI" emphasizes the development and implementation of AI solutions that themselves consume fewer resources and generate less waste. The Green AI Reference Model, in particular, aims to significantly reduce carbon dioxide equivalent (CO<sub>2</sub>e) emissions and conserve critical resources, including water, rare earth elements (REE), and others.
+
 This model not only advocates for resource efficiency but also champions the adoption of practices that reduce the environmental footprint of AI operations, thereby guiding the AI community towards a more sustainable and environmentally friendly future.
 
 ## Why does this model exist/why is it necessary
