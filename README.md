@@ -10,5 +10,5 @@ Files can be found here: /content/docs
 
 ```bash
 hugo server --minify
-hugo mode clean #Cleans cache
+hugo mod clean #Cleans cache
 ```
