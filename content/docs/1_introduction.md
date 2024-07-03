@@ -16,7 +16,7 @@ This model not only advocates for resource efficiency but also champions the ado
 There are numerous guidelines and methods for measureing and assessing the envidonmental impact of AI systems. However, these often rely on flawed assumptions or inaccurate data, which can lead to erroneous conclusions. The Green AI Reference Model addresses these issues. It provides a clear and comprehensive list of the factors that influence the sustainability of AI technologies, enabling stakeholders to make more informed and effective decisions. This model facilitates the establishment of consistent standards for evaluating the environmental impact of AI, ensuring that our efforts to make AI "greener" are based on sound scientific principles and are genuinely effective.
 
 ## How is this Model structured?
-The model began with an introduction that sets the foundation by distinguishing two key approaches: “Green by AI” focuses on leveraging AI technologies to enhance environmental sustainability, while “Green in AI” centers on developing AI solutions that inherently consume fewer resources and generate less waste.
+This introduction sets the foundation by distinguishing two key approaches: “Green by AI” focuses on leveraging AI technologies to enhance environmental sustainability, while “Green in AI” centers on developing AI solutions that inherently consume fewer resources and generate less waste.
 
 Following the introduction, the model details the methods for quantifying the environmental footprint of AI systems. It emphasizes the importance of accurate measurements to understand and mitigate ecological impacts effectively, covering various sources and factors influencing the environmental impact of AI technologies.  
 
