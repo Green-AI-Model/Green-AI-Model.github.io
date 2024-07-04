@@ -1,7 +1,11 @@
 # Green Artificial Inteligence Model
 
 - Static Website with: [hugo](https://gohugo.io/)
-- Hugo Theme: [hugo-book](https://github.com/alex-shpak/hugo-book)
+- (git submodule) Hugo Theme: [hugo-book](https://github.com/alex-shpak/hugo-book)
+
+```bash
+git clone git@github.com:Green-AI-Model/Green-AI-Model.github.io.git --recursive
+```
 
 # How to edit
 Files can be found here: /content/docs
