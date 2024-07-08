@@ -9,7 +9,7 @@ This is the Github repo for the [Green AI Model (https://green-ai-model.github.i
 ```bash
 git clone git@github.com:Green-AI-Model/Green-AI-Model.github.io.git --recursive
 ```
-## Usefull Hugo commands
+### Usefull Hugo commands
 ```bash
 hugo server --minify
 hugo mod clean #Cleans cache
