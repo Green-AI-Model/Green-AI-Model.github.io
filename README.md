@@ -1,18 +1,19 @@
 # Green Artificial Inteligence Model
 
+This is the Github repo for the [Green AI Model (https://green-ai-model.github.io/)](https://green-ai-model.github.io/)
+
+## How to build
 - Static Website with: [hugo](https://gohugo.io/)
 - (git submodule) Hugo Theme: [hugo-book](https://github.com/alex-shpak/hugo-book)
 
 ```bash
 git clone git@github.com:Green-AI-Model/Green-AI-Model.github.io.git --recursive
 ```
-
-# How to edit
-Files can be found here: /content/docs
-
-# Usefull Hugo commands
-
+## Usefull Hugo commands
 ```bash
 hugo server --minify
 hugo mod clean #Cleans cache
 ```
+
+## How to edit
+Files can be found here: /content/docs

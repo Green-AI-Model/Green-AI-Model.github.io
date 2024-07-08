@@ -1,13 +1,13 @@
 +++
-title = '4. Interplay of Influence Factors'
+title = '4. Interplay of influence factors'
 weight = 4
 +++
-# Interplay of Influence Factors
+# Interplay of influence factors
 ![](../figures/placeholder_green_ai_impact_factors_interconnected.png)
 
-> **Central Question**  
-> - How do the different Influence Factors interact with each other? And why does it matters?
-> - What scientific Question result from this?
+> **Central questions**  
+> - How do the different influence factors interact with each other? And why does this matter?
+> - What scientific questions result from this?
 
 ## Interplay Between Influence Factors
 Understanding the interplay between various influence factors is crucial for optimizing the ecological sustainability of AI systems. These factors, categorized into Use Case, Model, Data, Hardware, and Tools, do not operate in isolation. Instead, they interact in complex ways that can either amplify or mitigate their individual impacts on the environmental footprint of AI applications. The following illustrates some of those interplays.
