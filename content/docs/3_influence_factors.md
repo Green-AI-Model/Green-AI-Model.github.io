@@ -11,7 +11,7 @@ weight = 3
 
 The following section presents impact factors organized into five primary categories: use case, model, data, hardware, and tools. In the context of AI systems, these impact factors refer to specific components or areas within the system that can significantly contribute to its environmental impact. These factors may include, but are not limited to, the energy consumption of data centers, the carbon footprint of hardware production, the resource utilization during operation, and the ecological effects of disposing electronic waste.
 
-## Use case
+## Use Case
 AI applications are designed for specific situations in which the AI is employed to achieve particular user goals, which are referred to as use cases. In this category, we have organized the impact factors that are related to the problem solution.
 
 There are a multitude of **stakeholder** groups involved in the life cycle of an AI application. The following is a brief list of stakeholders and their potential influences on the environmental impact of AI solutions.
