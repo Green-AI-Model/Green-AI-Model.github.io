@@ -9,9 +9,15 @@ This is the Github repo for the [Green AI Model (https://green-ai-model.github.i
 ```bash
 git clone git@github.com:Green-AI-Model/Green-AI-Model.github.io.git --recursive
 ```
+If you already cloned without the submodule. You can add them with this:
+
+```bash
+git submodule init && git submodule update
+```
+
 ### Usefull Hugo commands
 ```bash
-hugo server --minify
+hugo server --minify # Start server (minimal html)
 hugo mod clean #Cleans cache
 ```
 
