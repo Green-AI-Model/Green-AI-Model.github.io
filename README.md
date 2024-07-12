@@ -22,4 +22,5 @@ hugo mod clean #Cleans cache
 ```
 
 ## How to edit
-Files can be found here: /content/docs
+- Files can be found here: [/content/docs](/content/docs)
+- Theme settings: [hugo.toml](hugo.toml)
