@@ -17,3 +17,9 @@ theme = "hugo-book"
 
 [markup.tableOfContents]
   startLevel = 2
+
+[params]
+  BookSection = 'docs'
+  BookRepo = 'https://github.com/Green-AI-Model/Green-AI-Model.github.io'
+  BookSearch = true
+  BookTheme = 'auto'
