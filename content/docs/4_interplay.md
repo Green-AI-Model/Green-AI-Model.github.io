@@ -1,6 +1,6 @@
 +++
 title = '4. Interplay of influence factors'
-weight = 4
+weight = 400
 +++
 # Interplay of influence factors
 ![](../figures/placeholder_green_ai_impact_factors_interconnected.png)

@@ -1,6 +1,6 @@
 +++
 title = '2. Quantifiying the Environmental Footprint'
-weight = 2
+weight = 200
 +++
 # Quantifiying the environmental footprint
 ![](../figures/placeholder_green_ai.png)

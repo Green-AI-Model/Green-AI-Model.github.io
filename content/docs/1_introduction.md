@@ -1,6 +1,7 @@
 +++
 title = '1. Introduction'
-weight = 1
+weight = 10
+bookToc = false
 +++
 
 # Introduction

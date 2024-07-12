@@ -1,6 +1,6 @@
 +++
 title = '3. Influencing Factors'
-weight = 3
+weight = 300
 +++
 # Influencing factors
 
