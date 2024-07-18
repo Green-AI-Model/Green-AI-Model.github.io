@@ -42,6 +42,8 @@ Following the training phase, the **inference** process assumes a pivotal role i
 
 The initial energy consumption of training is significantly greater than that of a single inference. However, inference typically occurs at a much higher frequency than training. In order to identify the greatest potential for energy savings, it is necessary to consider a number of factors, including the use case (e.g., the frequency of model execution), the hardware (e.g., whether the inference is executed on energy-efficient specialized hardware), and other relevant factors. A detailed examination of the complexity of these considerations is presented the [next section](../4_interplay).
 
+- Energy demand LLMs https://ml.energy/leaderboard
+
 ## Data
 In AI systems, the data utilized plays a significant role, influencing both the system's effectiveness and its environmental footprint. The primary factors within the "Data" category include data size, data selection, and data collection. Each of these factors has an impact on energy consumption.
 
